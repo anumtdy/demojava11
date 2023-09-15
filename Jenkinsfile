@@ -1,6 +1,7 @@
 pipeline {
     agent any
     tools{
+        jdk 'system'
         maven 'mavan_spring'
         }
     stages {
